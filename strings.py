@@ -1,24 +1,24 @@
-# # How to turn the second half into uppercase
-# x="childrenplayinginplayground"
-# y=len(x)//2
-# second=x[y:].upper()
-# first=x[:y].lower()
-# sum=first+second
-# print(sum)
-# # How to turn the first half into uppercase
-# x="childrenplayinginplayground"
-# y=len(x)//2
-# second=x[y:].lower()
-# first=x[:y].upper()
-# third=first+second
-# print(third)
-# # How to reverse and put y in upper case
-# n="childrenplayinginplayground"
-# t=len(n)//2
-# y=n[t:].upper()
-# j=n[:t].lower()
-# v=y+j
-# print(v)
+# How to turn the second half into uppercase
+x="childrenplayinginplayground"
+y=len(x)//2
+second=x[y:].upper()
+first=x[:y].lower()
+sum=first+second
+print(sum)
+# How to turn the first half into uppercase
+x="childrenplayinginplayground"
+y=len(x)//2
+second=x[y:].lower()
+first=x[:y].upper()
+third=first+second
+print(third)
+# How to reverse and put y in upper case
+n="childrenplayinginplayground"
+t=len(n)//2
+y=n[t:].upper()
+j=n[:t].lower()
+v=y+j
+print(v)
 
 #Accessing string characters in Python
 str = 'programiz'
@@ -35,6 +35,12 @@ print(str[1:5])
 #slicing 6th to 2nd last character
 print(str[5:-2])
 
+#Iterating througha string
+count=0
+for letter in "Hello world":
+    if (letter=='1'):
+        count+=1
+        print(count,'letters found')
 
 
 
